@@ -28,6 +28,7 @@ class Solution {
         k--;
   
     }
+        //copy remaining elements in the array
         while(i>=0) a[k--] = a[i--];
         while(j>=0) a[k--] = b[j--];
         }
