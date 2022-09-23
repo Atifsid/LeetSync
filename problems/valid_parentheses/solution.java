@@ -10,7 +10,9 @@ class Solution {
                 if(stack.empty()) return false;
                 
                 char c = stack.pop();
-                if(c == '(' && s.charAt(i) == ')' || c == '[' && s.charAt(i) == ']' || c == '{' && s.charAt(i) == '}'){}
+                if(c == '(' && s.charAt(i) == ')' || c == '[' && s.charAt(i) == ']' || c == '{' && s.charAt(i) == '}'){
+                    // do nothing
+                }
                 else{
                     return false;
                 }
