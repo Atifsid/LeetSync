@@ -16,7 +16,7 @@ class Solution {
             st.push(i);
         }
         
-        //Use same stack.
+        //Empty Stack to use same stack.
         while(st.empty() != true) st.pop();
         
         //Find out right smaller for every element.
